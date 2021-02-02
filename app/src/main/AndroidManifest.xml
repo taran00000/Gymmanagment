@@ -9,11 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Gymmanagement">
-        <activity android:name=".AboutUs"></activity>
+        <activity android:name=".UserPage_TrainerList"></activity>
+        <activity android:name=".AboutUs" />
         <activity android:name=".UserHomePage" />
         <activity android:name=".SelectionPage" />
         <activity android:name=".Profile" />
-        <activity android:name=".User_Home_TransformationList" />
+        <activity android:name=".UserHomePage$User_Home_TransformationList" />
         <activity android:name=".User_BodyTransformationDetails" />
         <activity android:name=".RegisterPage" />
         <activity android:name=".Login_Activity" />
