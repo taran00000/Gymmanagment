@@ -1,3 +1,14 @@
 <resources>
-    <string name="app_name">Gymmanagement</string>
+    <string name="app_name">GymManagement</string>
+    <string name="newmember">New Member? Join Now</string>
+    <string name="Fogot_Password">Fogot Password?</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="subtitle_activity_main">Stay Fit</string>
+    <string name="already_a_member">Already a member?</string>
+    <string name="login_btn">Login Now</string>
+    <string name="reg_btn">Register</string>
+    <string name="account_info">Account Information</string>
+    <string name="profile_info">Profile Information</string>
 </resources>
