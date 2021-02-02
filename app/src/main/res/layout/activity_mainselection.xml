@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    -<LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:background="@drawable/linearback" android:orientation="vertical" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    -<ScrollView android:layout_height="match_parent" android:layout_width="match_parent">
+
+
+    -<LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+
+
+    -<androidx.cardview.widget.CardView android:layout_height="wrap_content" android:layout_width="match_parent" app:cardCornerRadius="3dp" android:layout_margin="12dp" app:cardElevation="3dp">
+
+
+    -<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:background="#4B4B4C" android:orientation="vertical" android:gravity="center">
+
+
+    -<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal" android:gravity="center" android:layout_gravity="center">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="start" android:layout_marginTop="5dp" android:layout_marginLeft="20dp" android:textStyle="bold" android:textSize="16dp" android:textColor="#F8F6F6" android:text="Adams Fold"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:gravity="end" android:layout_marginTop="5dp" android:textStyle="bold" android:textSize="16dp" android:textColor="#EAEAEA" android:text="16 january 2021" android:layout_marginRight="20dp" android:layout_marginBottom="10dp"/>
+
+</LinearLayout>
+
+    <ImageView android:layout_height="190dp" android:layout_width="match_parent" android:layout_margin="10dp" android:padding="10dp" android:src="@drawable/gym" android:scaleType="fitXY"/>
+
+    <View android:layout_height="1dp" android:layout_width="match_parent" android:background="#A5A4A4" android:layout_marginBottom="5dp"/>
+
+
+    -<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal">
+
+
+    -<LinearLayout android:layout_height="wrap_content" android:layout_width="0dp" android:background="?attr/selectableItemBackground" android:orientation="vertical" android:focusable="true" android:clickable="true" android:layout_weight="1">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center" android:textStyle="bold" android:textColor="#F8D36D" android:text="Details" android:padding="10dp" android:drawableLeft="@drawable/ic_baseline_photo_album_24" android:drawablePadding="4dp" android:id="@+id/view_details"/>
+
+</LinearLayout>
+
+    <View android:layout_height="match_parent" android:layout_width="1dp" android:background="#A5A4A4" android:layout_marginBottom="5dp"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+
+    -<androidx.cardview.widget.CardView android:layout_height="wrap_content" android:layout_width="match_parent" app:cardCornerRadius="3dp" android:layout_margin="12dp" app:cardElevation="3dp">
+
+
+    -<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:background="#4B4B4C" android:orientation="vertical" android:gravity="center">
+
+
+    -<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal" android:gravity="center" android:layout_gravity="center">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="start" android:layout_marginTop="5dp" android:layout_marginLeft="20dp" android:textStyle="bold" android:textSize="16dp" android:textColor="#F8F6F6" android:text="Adams Fold"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:gravity="end" android:layout_marginTop="5dp" android:textStyle="bold" android:textSize="16dp" android:textColor="#EAEAEA" android:text="16 january 2021" android:layout_marginRight="20dp" android:layout_marginBottom="10dp"/>
+
+</LinearLayout>
+
+    <ImageView android:layout_height="190dp" android:layout_width="match_parent" android:layout_margin="10dp" android:padding="10dp" android:src="@drawable/gymback" android:scaleType="fitXY"/>
+
+    <View android:layout_height="1dp" android:layout_width="match_parent" android:background="#A5A4A4" android:layout_marginBottom="5dp"/>
+
+
+    -<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal">
+
+
+    -<LinearLayout android:layout_height="wrap_content" android:layout_width="0dp" android:background="?attr/selectableItemBackground" android:orientation="vertical" android:focusable="true" android:clickable="true" android:layout_weight="1">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center" android:textStyle="bold" android:textColor="#F8D36D" android:text="Details" android:padding="10dp" android:drawableLeft="@drawable/ic_baseline_photo_album_24" android:drawablePadding="4dp"/>
+
+</LinearLayout>
+
+    <View android:layout_height="match_parent" android:layout_width="1dp" android:background="#A5A4A4" android:layout_marginBottom="5dp"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+</LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>
