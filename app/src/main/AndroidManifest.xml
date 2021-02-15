@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Gymmanagement">
-        <activity android:name=".trainer_userviewlist"></activity>
+        <activity android:name=".userprogramm_details"></activity>
+        <activity android:name=".uerprogramm_details" />
+        <activity android:name=".trainer_userviewlist" />
         <activity android:name=".commonlist" />
         <activity android:name=".commonlist.xml" />
         <activity android:name=".BMICalculatorFragment" />
