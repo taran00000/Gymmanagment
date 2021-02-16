@@ -1,10 +1,5 @@
 package com.example.gymmanagement;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.os.Bundle;
-
-
 import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.util.Log;

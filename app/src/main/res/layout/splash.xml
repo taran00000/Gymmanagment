@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:background="@drawable/linearback">
+
+    <ImageView android:id="@+id/splashscreen"
+        android:layout_width="wrap_content"
+        android:layout_height="300sp"
+        android:src="@drawable/dumbbells"
+        android:padding="10dp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GYM MANAGEMENT"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:textSize="25dp"
+        android:textStyle="normal"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+</LinearLayout>

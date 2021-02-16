@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView android:id="@+id/scrollbar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9.5"
+        android:scrollbars="none"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/slider"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/gym"
+                android:scaleType="fitXY"
+                android:layout_width="fill_parent"
+                android:layout_height="250dp" />
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                app:cardElevation="8dp"
+                android:layout_margin="13dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10sp"
+                        android:orientation="vertical">
+                        <TextView android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Back Crunch"
+                            android:id="@+id/img_my_title"
+                            android:textSize="22dp"
+                            android:textStyle="bold"
+                            />
+                        <TextView android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:text="increase back shape"
+                            android:id="@+id/rentamount"
+                            android:textSize="16dp"
+                            />
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_marginTop="10dp"
+                            android:background="#838282"/>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="8dp">
+
+                        <TextView android:id="@+id/text_ratings"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="2dp"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="6dp"
+                            android:paddingRight="6dp"
+                            android:text="4.3 *"
+                            android:textSize="12dp"
+                            android:textStyle="bold"/>
+
+                        <TextView android:id="@+id/text_ratings_reviews"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:text="View Rating"
+                            android:textColor="#2A915B"
+                            android:textSize="12dp"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10sp"
+                        android:paddingBottom="10sp"
+                        android:orientation="vertical">
+                        <TextView android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Details"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/dishdetails"
+                            android:layout_marginTop="8dp"
+                            android:textSize="12dp"
+                            android:visibility="gone"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="According to Harvard Medical School, crunches are hard on your back, since they push your curved spine against the floor and work your hip flexors, the muscles that run from the thighs to the lumbar vertebrae in the lower back. When your hip flexors are too tight, they pull on your lower spine, which can cause lower back pain; plus, poorly performed crunches can also put strain on the neck. In addition to the potential for pain, sit-ups and crunches target just a few isolated muscles, and your core goes far beyond just abdominal muscles, so they aren't the most effective use of your time."
+                            android:id="@+id/hd_halldetal"
+                            android:textSize="12dp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
