@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Gymmanagement">
+        <activity android:name=".Admin_add_program"></activity>
         <activity android:name=".Admin_HomePage">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
