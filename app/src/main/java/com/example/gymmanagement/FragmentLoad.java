@@ -36,7 +36,7 @@ public class FragmentLoad extends AppCompatActivity {
         BottomBarItem item5 = new BottomBarItem(R.drawable.user, R.string.About_Us);
         bottomBar.addTab(item5);
 
-        // Optional badge
+        
 
 
         UserHomePage_Fragment uhfrag=new UserHomePage_Fragment();
