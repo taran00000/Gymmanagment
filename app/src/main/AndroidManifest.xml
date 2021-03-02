@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Gymmanagement">
-        <activity android:name=".MessageListAdapter"></activity>
+        <activity android:name=".ModelMessage"></activity>
+        <activity android:name=".MessageListAdapter" />
         <activity android:name=".Admin_add_program" />
         <activity android:name=".Admin_HomePage">
             <intent-filter>
